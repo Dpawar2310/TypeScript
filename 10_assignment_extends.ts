@@ -2,7 +2,7 @@ interface IPersonDetails {
     id: number;
     firstName: string;
     lastName: string;
-    xender: string;
+    gender: string;
     street: string
 }
 
@@ -23,7 +23,7 @@ var personInformation: IPerson = {
     id: 124,
     firstName: "Dipali",
     lastName: "Pawar",
-    xender: "Female",
+    gender: "Female",
     street: "Islampur",
     education: "M.C.A",
     workInCompany: "Gurukul PVT LTD",
